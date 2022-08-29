@@ -628,6 +628,15 @@
 //       total += args[i];
 //     }
 //   }
+// 2 варіант
+// function addOverNum(firstElement, ...args) {
+//   let total = 0;
+
+//   for (const arg of args) {
+//     if (arg > firstElement) {
+//       total += arg;
+//     }
+//   }
 
 //   console.log(total);
 //   return total;
